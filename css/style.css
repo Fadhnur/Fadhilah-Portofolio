@@ -9746,8 +9746,8 @@ textarea.form-control {
   cursor: pointer;
   
 }
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 1980px) {
   .modal-content {
     width: 100%;
   }
-}
+} */
