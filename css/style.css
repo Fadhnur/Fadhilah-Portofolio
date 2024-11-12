@@ -9688,7 +9688,7 @@ textarea.form-control {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 1px; /* Location of the box */
+  /* padding-top: 100px; Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -9696,6 +9696,9 @@ textarea.form-control {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 /* Modal content */
@@ -9743,4 +9746,8 @@ textarea.form-control {
   cursor: pointer;
   
 }
-
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
