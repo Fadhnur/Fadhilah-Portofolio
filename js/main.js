@@ -269,9 +269,75 @@
     fixedContentPos: false
   });
 
-
-
-
-
+  // Open the modal
+  
+  
+  
+  
 })(jQuery);
+
+
+let currentSlideIndex = 1;
+let slides = {
+    "molaritas": [
+        "images/Molaritas 1.2.png",
+        "images/Molaritas 2.1.png",
+        "images/Molaritas 3.1.png"
+    ],
+    "jungkat": [
+        "images/Jungkat-jungkit 1.2.png",
+        "images/Jungkat-jungkit 2.1.png",
+        "images/Jungkat-jungkit 3.1.png",
+        "images/Jungkat-jungkit 4.1.png"
+    ],
+	"goldar": [
+		"images/Golongan_Darah 1.2.png",
+		"images/Golongan_Darah 4.1.png",
+		"images/Golongan_Darah 2.1.png",
+		"images/Golongan_Darah 3.1.png"
+	],
+	"shockbreaker": [
+		"images/Shockbreaker 1.2.png",
+		"images/Shockbreaker 2.1.png",
+		"images/Shockbreaker 3.1.png"
+	]
+    // Add more sections here as needed
+};
+let currentSection = "";
+
+function openModal(section) {
+    currentSection = section;
+    currentSlideIndex = 1;
+    let modalContainer = document.getElementById("modal-slides-container");
+    modalContainer.innerHTML = "";
+
+    slides[section].forEach((src, index) => {
+        let slideDiv = document.createElement("div");
+        slideDiv.classList.add("modal-slide");
+        if (index !== 0) slideDiv.style.display = "none"; // Show only the first slide initially
+
+        let img = document.createElement("img");
+        img.src = src;
+        img.style.width = "100%";
+        slideDiv.appendChild(img);
+        modalContainer.appendChild(slideDiv);
+    });
+
+    document.getElementById("modal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+function changeSlide(n) {
+    let slides = document.getElementsByClassName("modal-slide");
+    slides[currentSlideIndex - 1].style.display = "none";
+    currentSlideIndex += n;
+
+    if (currentSlideIndex > slides.length) currentSlideIndex = 1;
+    if (currentSlideIndex < 1) currentSlideIndex = slides.length;
+
+    slides[currentSlideIndex - 1].style.display = "block";
+}
 
