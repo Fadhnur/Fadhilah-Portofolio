@@ -300,8 +300,25 @@ let slides = {
 		"images/Shockbreaker 1.2.png",
 		"images/Shockbreaker 2.1.png",
 		"images/Shockbreaker 3.1.png"
+	],
+	"mandorKue": [
+		"images/Mandor Kue/Mandor_Kue 1.0.jpg",
+		"images/Mandor Kue/Mandor_Kue 2.0.jpg",
+		"images/Mandor Kue/Mandor_Kue 3.0.jpg",
+		"images/Mandor Kue/Mandor_Kue 4.0.jpg"
+	],
+	"puncakKeberanian": [
+		"images/Puncak Keberanian/Puncak_Keberanian 1.0.jpg",
+		"images/Puncak Keberanian/Puncak_Keberanian 2.0.jpg",
+		"images/Puncak Keberanian/Puncak_Keberanian 3.0.jpg",
+		"images/Puncak Keberanian/Puncak_Keberanian 4.0.jpg"
+	],
+	"hujanMangga": [
+		"images/Hujan Mangga/Hujan_Mangga 1.0.jpg",
+		"images/Hujan Mangga/Hujan_Mangga 2.0.jpg",
+		"images/Hujan Mangga/Hujan_Mangga 3.0.jpg",
+		"images/Hujan Mangga/Hujan_Mangga 4.0.jpg"
 	]
-    // Add more sections here as needed
 };
 let currentSection = "";
 
