@@ -318,6 +318,27 @@ let slides = {
 		"images/Hujan Mangga/Hujan_Mangga 2.0.jpg",
 		"images/Hujan Mangga/Hujan_Mangga 3.0.jpg",
 		"images/Hujan Mangga/Hujan_Mangga 4.0.jpg"
+	],
+	"projectKards": [
+		"images/Project Kards/Project_Kards 1.0.png",
+		"images/Project Kards/Project_Kards 2.0.png",
+		"images/Project Kards/Project_Kards 3.0.png",
+		"images/Project Kards/Project_Kards 4.0.png",
+		"images/Project Kards/Project_Kards 5.0.png",
+		"images/Project Kards/Project_Kards 6.0.png",
+		"images/Project Kards/Project_Kards 7.0.png",
+	],
+	"anlessMania": [
+		"images/Anless Mania/Anless_Mania 1.0.png",
+		"images/Anless Mania/Anless_Mania 2.0.png",
+		"images/Anless Mania/Anless_Mania 3.0.png",
+		"images/Anless Mania/Anless_Mania 4.0.png"
+	],
+	"unorganism": [
+		"images/Unorganism/Unorganism 1.0.png",
+		"images/Unorganism/Unorganism 2.0.png",
+		"images/Unorganism/Unorganism 3.0.png",
+		"images/Unorganism/Unorganism 4.0.png"
 	]
 };
 let currentSection = "";
