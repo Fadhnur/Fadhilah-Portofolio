@@ -330,9 +330,9 @@ let slides = {
 	],
 	"anlessMania": [
 		"images/Anless Mania/Anless_Mania 1.0.png",
-		"images/Anless Mania/Anless_Mania 2.0.png",
-		"images/Anless Mania/Anless_Mania 3.0.png",
-		"images/Anless Mania/Anless_Mania 4.0.png"
+		"images/Anless Mania/Anless_Mania 2.1.png",
+		"images/Anless Mania/Anless_Mania 3.1.png",
+		"images/Anless Mania/Anless_Mania 4.1.png"
 	],
 	"unorganism": [
 		"images/Unorganism/Unorganism 1.0.png",
